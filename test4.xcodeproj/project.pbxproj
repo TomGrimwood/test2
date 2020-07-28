@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		900D1AEE24D0303C000DAE38 /* fuck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900D1AED24D0303C000DAE38 /* fuck.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		900D1AE124D02F97000DAE38 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		900D1AE324D02F97000DAE38 /* test4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = test4; path = /Users/tomgrimwood/Desktop/test4/build/Debug/test4; sourceTree = "<absolute>"; };
+		900D1AED24D0303C000DAE38 /* fuck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fuck.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 		900D1ADA24D02F97000DAE38 = {
 			isa = PBXGroup;
 			children = (
+				900D1AED24D0303C000DAE38 /* fuck.cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900D1AEE24D0303C000DAE38 /* fuck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
