@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		900D1B0C24D03114000DAE38 /* wefwef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wefwef; sourceTree = BUILT_PRODUCTS_DIR; };
+		900D1B0C24D03114000DAE38 /* wefwef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = wefwef; path = /Users/tomgrimwood/Desktop/wefwef/build/Debug/wefwef; sourceTree = "<absolute>"; };
 		900D1B0F24D03114000DAE38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,25 +41,8 @@
 		900D1B0324D03114000DAE38 = {
 			isa = PBXGroup;
 			children = (
-				900D1B0E24D03114000DAE38 /* wefwef */,
-				900D1B0D24D03114000DAE38 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		900D1B0D24D03114000DAE38 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				900D1B0C24D03114000DAE38 /* wefwef */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		900D1B0E24D03114000DAE38 /* wefwef */ = {
-			isa = PBXGroup;
-			children = (
 				900D1B0F24D03114000DAE38 /* main.cpp */,
 			);
-			path = wefwef;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +88,7 @@
 				Base,
 			);
 			mainGroup = 900D1B0324D03114000DAE38;
-			productRefGroup = 900D1B0D24D03114000DAE38 /* Products */;
+			productRefGroup = 900D1B0324D03114000DAE38;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
