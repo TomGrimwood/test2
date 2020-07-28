@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		900D1ACA24D02516000DAE38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900D1AC924D02516000DAE38 /* main.cpp */; };
+		900D1AD524D025BE000DAE38 /* basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900D1AD024D025BE000DAE38 /* basics.cpp */; };
+		900D1AD624D025BE000DAE38 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900D1AD324D025BE000DAE38 /* test.cpp */; };
+		900D1AD924D02693000DAE38 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 900D1AD824D02693000DAE38 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		900D1AC624D02516000DAE38 /* test2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test2; sourceTree = BUILT_PRODUCTS_DIR; };
-		900D1AC924D02516000DAE38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		900D1AC624D02516000DAE38 /* test2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = test2; path = /Users/tomgrimwood/Desktop/test2/build/Debug/test2; sourceTree = "<absolute>"; };
+		900D1AD024D025BE000DAE38 /* basics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basics.cpp; sourceTree = "<group>"; };
+		900D1AD124D025BE000DAE38 /* basics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basics.h; sourceTree = "<group>"; };
+		900D1AD224D025BE000DAE38 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		900D1AD324D025BE000DAE38 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		900D1AD824D02693000DAE38 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +47,12 @@
 		900D1ABD24D02516000DAE38 = {
 			isa = PBXGroup;
 			children = (
-				900D1AC824D02516000DAE38 /* test2 */,
-				900D1AC724D02516000DAE38 /* Products */,
+				900D1AD824D02693000DAE38 /* Makefile */,
+				900D1AD024D025BE000DAE38 /* basics.cpp */,
+				900D1AD124D025BE000DAE38 /* basics.h */,
+				900D1AD224D025BE000DAE38 /* README.md */,
+				900D1AD324D025BE000DAE38 /* test.cpp */,
 			);
-			sourceTree = "<group>";
-		};
-		900D1AC724D02516000DAE38 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				900D1AC624D02516000DAE38 /* test2 */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		900D1AC824D02516000DAE38 /* test2 */ = {
-			isa = PBXGroup;
-			children = (
-				900D1AC924D02516000DAE38 /* main.cpp */,
-			);
-			path = test2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +98,7 @@
 				Base,
 			);
 			mainGroup = 900D1ABD24D02516000DAE38;
-			productRefGroup = 900D1AC724D02516000DAE38 /* Products */;
+			productRefGroup = 900D1ABD24D02516000DAE38;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +112,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900D1ACA24D02516000DAE38 /* main.cpp in Sources */,
+				900D1AD924D02693000DAE38 /* Makefile in Sources */,
+				900D1AD524D025BE000DAE38 /* basics.cpp in Sources */,
+				900D1AD624D025BE000DAE38 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
