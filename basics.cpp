@@ -1,7 +1,7 @@
 
 #include "basics.h"
 
-int triple(int number) {
+int trriple(int number) {
 	// TODO implement
 	return 0;
 }
